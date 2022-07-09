@@ -1,0 +1,44 @@
+.home-main {
+    height: 100%;
+    width: 100%;
+    background-color:#F7C7A2;
+    padding: 20px;
+}
+
+.home-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: middle;
+}
+.home-title > h1 {
+    font-family: 'Seaweed Script', cursive;
+    color: #be6481;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.home-title > h2 {
+    color: #be6481;
+}
+
+.heart-img {
+    display: flex;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    animation-name: heartbeat;
+    animation-timing-function: linear;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heartbeat {
+    to { transform: scale(1.05);
+    }
+}
+
+
+
+

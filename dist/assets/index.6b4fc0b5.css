@@ -1,0 +1,1 @@
+*{--text: #444444;--background: #EEEEEE}root{width:100%;height:100%;color:var(--text);background-color:var(--background)}nav>a{margin-right:.3rem}.brewery-container{display:flex;flex-direction:row;flex-wrap:wrap}.brewery-card{padding:.3rem;margin:.3rem;border:thin solid var(--text);border-radius:.3rem}
